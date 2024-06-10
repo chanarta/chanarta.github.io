@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.profile-info h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.profile-info a {
+    color: black;
+    text-decoration: none;
+}
+
+.profile-info a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 1.5em;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    background: #e7f3ff;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.section ul.interests li {
+    background: #e1f5fe;
+    font-size: 1em;
+}
+
+.section p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+    </style>
+</head>
+<body>
+        <div class="resume-container">
+            <header>
+                <div class="profile-photo">
+                    <!-- 사진을 추가하려면 아래 src 속성을 수정하세요 -->
+                    <img src="profile_photo.jpg" alt="Profile Photo">
+                </div>
+                <div class="profile-info">
+                    <h1>임승찬</h1>
+                    <h2>Seung-chan-lim</h2>
+                    <p><a href="sclim001@dongyang.ac.kr"></a>sclim001@dongyang.ac.kr</p>
+                </div>
+            </header>
+            
+            <section class="section">
+                <h2>기술 스택 (Technical Skills)</h2>
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2>대학 정보 (Education)</h2>
+                <p>서울대학교 컴퓨터공학과, 2020년 입학</p>
+                <p>Seoul National University, Department of Computer Science, Entered in 2020</p>
+            </section>
+    
+            <section class="section">
+                <h2>기술 개발 경험 (Development Experience)</h2>
+                <p>현재 웹 개발 수업을 수강 중이며, Python을 이용한 데이터 분석 프로젝트를 진행했습니다. 고등학교 시절에는 Java를 이용해 간단한 애플리케이션을 개발한 경험이 있습니다.</p>
+                <p>Currently taking a web development course and working on a data analysis project using Python. During high school, I developed a simple application using Java.</p>
+            </section>
+    
+            <section class="section">
+                <h2>관심 기술 분야 (Interest Areas)</h2>
+                <ul class="interests">
+                    <li>인공지능 (Artificial Intelligence)</li>
+                    <li>머신러닝 (Machine Learning)</li>
+                    <li>웹 개발 (Web Development)</li>
+                </ul>
+            </section>
+    
+            <section class="section">
+                <h2>기타 (Additional Information)</h2>
+                <p>개인 프로젝트 링크 또는 사진을 추가할 수 있습니다.</p>
+            </section>
+        </div>
+
+</body>
+</html>
